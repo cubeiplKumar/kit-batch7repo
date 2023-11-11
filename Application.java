@@ -24,6 +24,7 @@ class Main
         c.calculateArea(); //invokes calculateArea() with object c
         c.calculateCircumference(); //invokes calculateCircumference() with object c
     }
+
 	#feature202 changes by vivek
 	public static void sampleMethod(int a,int b) throws ArithmeticException{
       System.out.println("Hello, this is sample method");
@@ -37,4 +38,17 @@ class Main
  
 }
 	
+
+	#feature201 changes by Akhil on SIP Investments 
+	 public static void main(String[] args) {
+    int result;
+
+    // call the method
+    // store returned value to result
+    result = square(10);
+
+    System.out.println("Squared value of 10 is: " + result);
+  }
+}
+
 }
