@@ -24,4 +24,15 @@ class Main
         c.calculateArea(); //invokes calculateArea() with object c
         c.calculateCircumference(); //invokes calculateCircumference() with object c
     }
+	#feature201 changes by Akhil on SIP Investments 
+	 public static void main(String[] args) {
+    int result;
+
+    // call the method
+    // store returned value to result
+    result = square(10);
+
+    System.out.println("Squared value of 10 is: " + result);
+  }
+}
 }
